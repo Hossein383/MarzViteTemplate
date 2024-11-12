@@ -226,13 +226,13 @@ const ServiceInfo = ({ data }) => {
           />
           <InfoRow
             icon={faCalendar}
-            label={"تاریخ خرید :"}
+            label={"تاریخ ایجاد سرویس :"}
             value={createdDate}
             rtl
           />
           <InfoRow
             icon={faSpinner}
-            label={"حجم خریداری شده :"}
+            label={"حجم :"}
             value={totalTraffic}
           />
         </Row>
